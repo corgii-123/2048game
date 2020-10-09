@@ -1,0 +1,19 @@
+.four-and-four-box {
+  width: 60vmin;
+  height: 60vmin;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.every-square {
+  width: 13vmin;
+  height: 13vmin;
+  text-align: center;
+  line-height: 13vmin;
+  background-color:#669999;
+  border-radius: 50%;
+  box-shadow:inset 0px 15px 10px -15px #000;
+  font-size: 7vmin;
+  text-shadow: 1px 1px white, -1px -1px #444;
+}
